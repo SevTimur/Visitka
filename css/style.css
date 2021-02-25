@@ -236,6 +236,11 @@ a {
     @media (max-width: 767.98px) {
       .header__item {
         margin: 15px 0; } }
+    .header__item:hover {
+      background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: white; }
   .header__phone {
     display: -webkit-flex;
     display: -ms-flex;
@@ -244,6 +249,11 @@ a {
     @media (max-width: 767.98px) {
       .header__phone {
         margin-left: auto; } }
+    .header__phone:hover {
+      background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: white; }
     .header__phone svg {
       margin-right: 10px; }
     @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -380,6 +390,11 @@ a {
     width: 5px;
     margin-right: 15px;
     background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C); }
+  .advantage__text:hover {
+    background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white; }
 
 .skills-page {
   display: -webkit-flex;
@@ -486,6 +501,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .footer a:hover {
+    background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white; }
   .footer .title-2 {
     background: -webkit-linear-gradient(135deg, #FDE74C, #5BC0EB, #FDE74C);
     -webkit-background-clip: text;

@@ -296,6 +296,12 @@ a {
     @media (max-width: 767.98px) {
       margin: 15px 0;
     }
+    &:hover {
+      background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: white;
+    }
   }
   &__phone {
     display: -webkit-flex;
@@ -304,6 +310,12 @@ a {
     align-items: center;
     @media (max-width: 767.98px) {
       margin-left: auto;
+    }
+    &:hover {
+      background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: white;
     }
     & svg {
       margin-right: 10px;
@@ -475,6 +487,12 @@ a {
     background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
   }
   &__text {
+    &:hover {
+      background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: white;
+    }
   }
 }
 
@@ -521,7 +539,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // flex-grow: 1;
   max-height: 50vh;
   max-width: 100%;
   @media (max-width: 575.98px) {
@@ -610,6 +627,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  & a:hover {
+    background: -webkit-linear-gradient(135deg, #5BC0EB, #FDE74C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+  }
   & .title-2 {
     background: -webkit-linear-gradient(135deg, #FDE74C, #5BC0EB, #FDE74C);
     -webkit-background-clip: text;
